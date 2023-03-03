@@ -127,7 +127,7 @@ exec dwm
 
 dwm启动时会去调用 $DWM/autostart.sh 脚本
 
-可参考 [autostart脚本](https://github.com/yaocccc/dwm/blob/master/autostart.sh)
+可参考 [autostart脚本](https://github.com/yaocccc/dwm/blob/master/DEF/autostart.sh)
 
 ## Q & A
 
@@ -184,16 +184,20 @@ yay -S wqy-microhei
 
 请检查DWM变量是否正确设置，如果实在不行了，可以直接强制改config.h 里的 autostartscript 和 statusbarscript 变量
 
-## 贡献者 THX
+## 贡献者 THX 🌻
 
 - [yaocccc](https://github.com/yaocccc)
+  - [MASTER](#TOP)
 - [p3psi-boo](https://github.com/p3psi-boo)
   - [PR#4 添加 Nix Flake 支持](https://github.com/yaocccc/dwm/pull/4)
 - [gxt-kt](https://github.com/gxt-kt)
   - [PR#7 修复hide/show窗口栈索引带来的无法恢复窗口的bug](https://github.com/yaocccc/dwm/pull/7)
+  - [PR#19 二维选中、交换窗口](https://github.com/yaocccc/dwm/pull/19)
 - [Ruixi-rebirth](https://github.com/Ruixi-rebirth)
   - [PR#12 优化flake](https://github.com/yaocccc/dwm/pull/12)
   - [PR#16 优化flake](https://github.com/yaocccc/dwm/pull/16)
+- [Int-0X7FFFFFFF](https://github.com/Int-0X7FFFFFFF)
+  - [PR20 修复了音量在中文环境下一直显示静音的错误](https://github.com/yaocccc/dwm/pull/20)
 
 ## ENJOY IT 😃
 
